@@ -12,7 +12,8 @@ This is the automation script for the required assessment.
 ## Usage
 Run the build as a Maven test from the maven tab.
 
-##Running the tests
+## Running the tests
+
 ```
 Download the project as a ZIP file
 ```
@@ -33,14 +34,14 @@ Click on test then run the build
 * The third test case asserts the the text "Hello World!" is displayed
 * The fourth test case asserts that the response "text" is not empty
 
-##Built with
+## Built with
 * Maven
 * Selenium Webdriver
 * Rest Assured
 * Extent Report
 
-##Report
+## Report
 The report output HTML file location is "project location/test-output"
 
-##Authors
+## Authors
 Abdurahman Alhifnawy
