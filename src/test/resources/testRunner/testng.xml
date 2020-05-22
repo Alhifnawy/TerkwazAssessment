@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Cat Facts Testing" >
+    <listeners>
+        <listener class-name="listeners.CustomListeners" />
+    </listeners>
+
+    <test name="APITest">
+        <classes>
+            <class name="testsAPI.RandomCatFact"></class>
+        </classes>
+    </test>
+    
+    <test name="webGUITests">
+        <classes>
+            <class name="webGUITests.Tests"></class>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

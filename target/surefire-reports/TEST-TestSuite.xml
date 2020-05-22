@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="42.444" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13+33"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Terkwaz_Assessment"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Terkwaz_Assessment"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="13+33"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABDURA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;D:\Courses\IMT\mingw64\bin;C:\Windows\System32;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\nodejs\;C:\Users\Abdurahman\AppData\Local\Android\Sdk\platform-tools;C:\Users\Abdurahman\AppData\Local\Android\Sdk\tools;C:\Program Files\allure-2.13.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13\bin;C:\Windows\System32;C:\Users\Abdurahman\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="idea.version2019.3.2" value="true"/>
+    <property name="user.home" value="C:\Users\Abdurahman"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="Abdurahman"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.2 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-09-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TextFieldNotEmpty" classname="testsAPI.RandomCatFact" time="3.122"/>
+  <testcase name="searchForText" classname="webGUITests.Tests" time="4.457">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at webGUITests.Tests.searchForText(Tests.java:37)
+</failure>
+    <system-err><![CDATA[[1590118190.110][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118190.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118190.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118190.805][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118190.906][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118191.010][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118191.711][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118191.847][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118191.948][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118192.049][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118192.262][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118192.557][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118192.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118192.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118193.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118193.159][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118193.260][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118193.361][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590118193.462][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="uploadImage" classname="webGUITests.Tests" time="4.322"/>
+  <testcase name="uploadImage" classname="webGUITests.Tests" time="10.534"/>
+  <testcase name="uploadImage" classname="webGUITests.Tests" time="5.923"/>
+  <testcase name="dynamicLoading" classname="webGUITests.Tests" time="6.082"/>
+</testsuite>

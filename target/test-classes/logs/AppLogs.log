@@ -1,0 +1,7 @@
+05:28:34,124 DEBUG devpinoyLogger:27 -  ## Suite Test Execution Starts ## 
+05:28:34,130 DEBUG devpinoyLogger:30 - Open file Stream for the API_Resources.properties file 
+05:28:34,130 DEBUG devpinoyLogger:33 - Open file Stream loaded Successfully
+05:28:34,130 DEBUG devpinoyLogger:39 - Reading the properties from the API_Resources.properties file stream 
+05:28:34,131 DEBUG devpinoyLogger:41 - Reading the properties completed successfully
+05:28:34,131 DEBUG devpinoyLogger:47 - Setting the Base URI for the Rest Assured to : https://cat-fact.herokuapp.com
+05:28:38,632 DEBUG devpinoyLogger:59 - The APITest Finished ... 
